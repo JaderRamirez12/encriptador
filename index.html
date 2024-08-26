@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <img src="img/Logo.svg" alt="Logo">Encriptador de Texto
+        </h1>
+    </header>
+    <main>
+        <section>
+            <div class="encriptador" contenteditable="true">
+                <textarea id="textencriptador" type="text" class="textencriptador" name="" cols="40" rows="15" placeholder="Ingrese el texto a encriptar o desencriptar aquí" data-lt-tmp-id="lt-669510" spellcheck="false" data-gramm="false"></textarea>
+            </div>
+            <div class="mensaje">
+                <img src="img/error.svg" alt="error">
+                <p>Por favor ingrese solo letras <b>minúsculas</b> y <b>sin acentos</b>, por favor</p>
+            </div>
+            <div class="botones"> 
+                <button class="btonencriptador">
+                    <p>Encriptar</p>
+                </button>
+                <button class="btondesencriptador">
+                    <p>Desencriptar</p>
+                </button>
+            </div>
+        </section>
+        <aside>
+            <div class="separar" id="separar1">
+                <img src="img/muñeco.png" alt="">
+                <h5>Lo sentimos, No hemos encontrado ningun mensaje</h5>
+                <p>Ingrese aquí el texto que desea <b>encriptar</b> o <b>desencriptar</b></p>
+            </div>
+            <div class="separar" id="separar2">
+                <textarea id="areaencriptar" type="text" name="textencriptado" id="" cols="30" rows="10"></textarea>
+                <button class="btoncopiar">
+                    <p>Copiar</p>
+                </button>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>Jader Ramírez (R) &copy;</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
